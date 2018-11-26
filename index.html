@@ -1,77 +1,159 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Home</title>
   <meta charset="utf-8">
+  <!-- 
+  |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ 
+  |//////////////////////////////////////////////////////  
+  
+  DESIGNED & DEVELOPED by SURAJ KUMAR OJHA
+    
+  Website:    http://projectsuraj.tk/
+  Email  :    info@projectsuraj.tk
+   
+  ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  
+
+                               ____                  
+                            _.' :  `._               
+                        .-.'`.  ;   .'`.-.           
+               __      / : ___\ ;  /___ ; \      __  
+             ,'_ ""=-.:__;".-.";: :".-.":__;.-="" _`,
+             :' `.t""=-.. '<@.`;_  ',@:` ..-=""j.' `;
+                  `:-.._J '-.-'L__ `-.-' L_..-;'     
+                    "-.__ ;  .-"  "-.  : __.-"       
+                        L ' /.======.\ ' J           
+      HELLO !!!           "-.   "__"   .-"            
+                        __.l"-:_JL_;-";.__           
+                     .-j/'.;  ;""""  / .'\"-.        
+                   .' /:`. "-.:     .-" .';  `.      
+                .-"  / ;  "-. "-..-" .-"  :    "-.   
+             .+"-.  : :      "-.__.-"      ;-._   \  
+             ; \  `.; ;                    : : "+. ; 
+             :  ;   ; ;   <PROJECT SURAJ>  : ;  : \: 
+             ;  :   ; :                    ;:   ;  : 
+            : \  ;  :  ;    ARE YOU       : ;  /  :: 
+            ;  ; :   ; :      WANT        ;   :   ;: 
+            :  :  ;  :  ;      TO        : :  ;  : ; 
+            ;\    :   ; :      SEE       ; ;     ; ; 
+            : `."-;   :  ;    CODE??    :  ;    /  ; 
+             ;    -:   ; :              ;  : .-"   : 
+             :\     \  :  ;   GIVEN    : \.-"      : 
+              ;`.    \  ; :   below..  ;.'_..-=  / ; 
+              :  "-.  "-:  ;          :/."      .'  :
+               \         \ :          ;/  __        :
+                \       .-`.\        /t-""  ":-+.   :
+                 `.  .-"    `l    __/ /`. :  ; ; \  ;
+                   \   .-" .-"-.-"  .' .'j \  /   ;/ 
+                    \ / .-"   /.     .'.' ;_:'    ;  
+                     :-""-.`./-.'     /    `.___.'   
+                           \ `t  ._  /               
+                            "-.t-._:'                
+
+
+
+  //////////////////////////////////////////////////////|
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|
+  -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="ps_logo.png" rel="icon">
+
+  <!-- ONLINE CDN LINKS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!-- CUSTOM STYLE SHEET -->
+  <!-- OFFLINE CDN LINKS 
+  <link rel="stylesheet" href="css/3.3.7_bootstrap.min.css">
+  <script src="js/3.3.1_jquery.min.js"></script>
+  <script src="js/3.3.7_bootstrap.min.js"></script>
+  -->
+  <!-- CUSTOM STYLE SHEET -->
   <link rel="stylesheet" href="css/style.css">
 
 <style>
-
+.bg-grey{background-color: #f6f6f6;}
+.border {border-style: solid;  border-width: 1px;  border-color: ;}
 
 </style>
-
 </head>
 <body>
 
-<nav class="navbar navbar-default  navbar-fixed-top ">  <!--  navbar-expand-lg  navbar-transparent navbar-color-on-scroll navbar-expand-lg " -->
+<!--===============================================-->
+<!--    NAVBAR-->
+<!--===============================================-->
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="#">Project Suraj</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+             <li class="active"><a href="index.html">HOME</a></li>
+             <li class=""><a href="about.html">ABOUT</a></li>
+             <li class=""><a href="contact.html">CONTACT</a></li>
+            <!--  
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            -->  
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+           <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+           <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<!--===============================================-->
+<!--    HEADER-->
+<!--===============================================-->
+
+<header class="header text-white text-center ">
   <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" style="padding:5px 0px 0px 0px;" href="#">
-        <img src="ps_logo.png" class="" style="width:40px; height:40px; margin:0px;">
-      </a>
-      <span class="navbar-brand"><b> &nbsp;&nbsp;PS</b></span>
+  
+    <div class="row centered">
+    <div class="col-lg-12">
+    <h5>|| জয় মা কালী ||</h5>  
+    <h1 class="text-uppercase">Project Suraj</h1>
+    <hr class="star-light">
+    <h2 class="font-weight-light">Dynamic Web Developing - User Experience Designing</h2>
+    <p>Explore All My Projects </p> 
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="index.html">HOME</a></li>
-        <li class=""><a href="about.html">ABOUT</a></li>
-        <li class=""><a href="contact.html">CONTACT</a></li>
+    </div> 
 
-        <li class=""><a href="login.html">LOGIN</a></li>
-        <li class=""><a href="register.html">REGISTER</a></li>
-
-<!--
-        <li class=""><a class="" style="padding: 8px;"  href="login.html ">
-        <button class="btn btn-default" style="border-radius: 5px;">Login</button></a>
-        </li>
-        <li class=""><a class="" style="padding: 8px;" href="register.html">
-        <button class="btn btn-default" style="border-radius: 5px;">Register</button></a>
-        </li>
--->
-      </ul>
-    </div>
   </div>
-</nav>
+</header>
 
+<!--===============================================-->
+<!--    SECTION 01-->
+<!--===============================================-->
 
-<div class="jumbotron text-center">
-  <h5>|| জয় মা কালী ||</h5>
-  <h1>Project Suraj</h1> 
-  <p>Explore All My Projects </p> 
-</div>
+  <section id="" name="section-01">
+    <div id="section-01">
+      <div class="container">
+        <div class="row center">
 
-
-
-<div class="container-fluid text-center borde-r">
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="#"> </a></p>
-      <p><a href="#"> </a></p>
-      <p><a href="#"> </a></p>
-    </div>
-    <div class="col-sm-8 text-left">
+    <div class="col-sm-12 text-left">
       <h1>Welcome</h1>
       <p>I'm web designer & front-end developer with 1 years of professional experience. I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces. I also have skills in other fields like branding, icon design or web development.</p>
 
@@ -91,11 +173,27 @@
       <hr><br><br>
       </div> 
 
+       <blockquote class="blockquote  b order">
+            <p>
+             If you just work on stuff that you like and you’re passionate about, you don’t have to have a master plan with how things will play out.
+            </p>
+            <footer class="blockquote-footer">
+                Narendra Modi
+            </footer>
+      </blockquote>
+
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 <!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
-
-<div id="carousel-example-generic" class="carousel slide " data-ride="carousel">
+<section id="" name="section-03">
+<div id="section-03">
+<div class="container">
+  <div class="row">
+    <div id="carousel-example-generic" class="carousel center slide " data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -129,78 +227,56 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+</div>
+</div>
+    </div>
+  </section>
 
 <!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
-      
-      <div class="container-fluid bg-3 text-center ">  
-      <h1 class="margin">My Works</h1>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="#"><img src="ps_img.png" class="img-responsive" style="width:100%"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="#"><img src="ps_img.png" class="img-responsive" style="width:100%"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="#"><img src="ps_img.png" class="img-responsive" style="width:100%"></a>
-      </div>
-      
-      </div>
+
+
+<!--===============================================-->
+<!--    SECTION 02-->
+<!--===============================================-->
+
+  <section id="" name="section-02">
+    <div id="section-02">
+      <div class="container">
+        <div class="row center">
+
+    <div class="col-sm-12 text-left">
+      <h1>Welcome</h1>
+      <p>I'm web designer & front-end developer with 1 years of professional experience. I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces. I also have skills in other fields like branding, icon design or web development.</p>
+
+        <p>I am web designer & front-end developer with 1 years of professional experience. I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces.</p>
+        <p>My works is, web designer & front-end developer with 1 years of professional experience. I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces. I also have skills in other fields like branding, icon design or web development.</p>
+      <hr>
+
+      <h3>Information</h3>
+      <p>More write soon...</p>
+
+
+      <div class="borde r">
       <br><br> 
+      <h1>Works</h1>
+      <p>I'm web designer & front-end developer with 1 years of professional experience. I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces. I also have skills in other fields like branding, icon design or web development.</p>
+      <p>My works is, web designer & front-end developer with 1 years of professional experience. I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces. I also have skills in other fields like branding, icon design or web development.</p>
+      <hr><br><br>
+      </div> 
 
-<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
-      <blockquote class="blockquote  b order">
-            <p>
-             If you just work on stuff that you like and you’re passionate about, you don’t have to have a master plan with how things will play out.
-            </p>
-            <footer class="blockquote-footer">
-                Narendra Modi
-            </footer>
-      </blockquote>
-
-
-      <div class="text-center">    
-        <h3 class="m/argin">My Live Projects </h3><br>
-        <div class="row">
-          <div class="col-sm-4">
-            <p>My works is, web designer & front-end developer with 1 years of professional experience. I'm interested in all kinds.</p>
-            <img src="ps_img.png" class="img-responsive margin" style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-4"> 
-            <p>My works is, web designer & front-end developer with 1 years of professional experience. I'm interested in all kinds.</p>
-            <img src="ps_img.png" class="img-responsive margin" style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-4"> 
-            <p>My works is, web designer & front-end developer with 1 years of professional experience. I'm interested in all kinds.</p>
-            <img src="ps_img.png" class="img-responsive margin" style="width:100%" alt="Image">
-          </div>
         </div>
       </div>
     </div>
-
-    <div class="col-sm-2 sidenav">
-      <div class="w/ell">
-        <p></p>
-      </div>
-       <div class="w/ell">
-        <p></p>
-      </div>
-    </div>
-  </div>
-</div>
+  </section>
 
 
 
-<div class="container ">
-  <div class="row ">
-    <div class="col-xs-2 col-sm-3 col-md-4 col-lg-4"></div>
 
-    <div class="col-xs-8 col-sm-6 col-md-4 col-lg-4 shadow"></div>
-    
-    <div class="col-xs-2 col-sm-3 col-md-4 col-lg-4"></div>
-  </div> 
-</div><br><br><br>
 
-<footer class="container-fluid text-center  footer-container"> <!-- bg-grey -->
+
+
+
+<footer class="container-fluid text-center  footer-container "> <!-- bg-grey -->
   <div class="">
   <a href="#" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
