@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Login</title>
+  <title>Register</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="ps_logo.png" rel="icon">
@@ -10,6 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <style>
+
 .jumbotron {
   b/ackground-color: #f4511e; //#2E2D88;
   c/olor: #fff;
@@ -17,15 +18,18 @@
   font-family: Montserrat, sans-serif;
      
 }
+
 footer{
   b/order-style: solid;
   b/order-width: 1px;
   height: 100px;
   padding-top: 20px;
 }
+
 .bg-grey {
   background-color: #f6f6f6;
 }
+
 
 </style>
 
@@ -51,10 +55,10 @@ footer{
         <li class=""><a href="index.html">ABOUT</a></li>
         <li class=""><a href="index.html">CONTACT</a></li>
 
-        <li class="active"><a class="" style="padding: 8px;"  href="login.html ">
+        <li class=""><a class="" style="padding: 8px;"  href="login.html ">
         <button class="btn btn-default" style="border-radius: 5px;">Login</button></a>
         </li>
-        <li class=""><a class="" style="padding: 8px;" href="signup.html">
+        <li class="active"><a class="" style="padding: 8px;" href="signup.html">
         <button class="btn btn-default" style="border-radius: 5px;">Register</button></a>
         </li>
 
@@ -74,111 +78,96 @@ footer{
   <div class="row ">
     <div class="col-xs-2 col-sm-3 col-md-4 col-lg-4"></div>
     <div class="col-xs-8 col-sm-6 col-md-4 col-lg-4 shadow">
-      <h2 class="text-center ">Login</h2>
+      <h2 class="text-center ">Register</h2>
       <hr>
       <form action="#">
+        <div class="form-group">
+          <label for="fname">First Name:</label>
+          <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+          <label for="lname">Last Name:</label>
+          <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+        </div>
+
         <div class="form-group">
           <label for="email">Email:</label>
           <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
         </div>
+
         <div class="form-group">
-          <label for="pwd">Password:</label>
-          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+          <label for="username">Create Username:</label>
+          <input type="text" class="form-control" id="username" placeholder="Enter username" name="username">
         </div>
-        <button type="submit" class="btn btn-default " name="submit" id="submit">Submit</button>
+
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+        </div>
+
+        <div class="form-group">
+          <label for="cpassword">Confirm Password:</label>
+          <input type="password" class="form-control" id="cpassword" placeholder="Renter password" name="cpassword">
+        </div>
+
+        <div class="form-group">
+          <label for="mobile">Mobile:</label>
+          <input type="mobile" class="form-control" id="mobile" placeholder="Enter mobile" name="mobile">
+        </div>
+
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <textarea class="form-control" id="address"  name="address" rows="5" cols="22"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="website">Website:</label>
+          <input type="text" class="form-control" id="website" placeholder="Enter website" name="website">
+        </div>
+
+
+        <div class="form-group">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" class="form-control" id="dob" placeholder="Enter email" name="dob">
+        </div>
+
+        <div class="form-group">
+          <label for="email" >Gender:</label> 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" class="radio-container" id="gender" name="gender" value="Male"> Male
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" class="radio-container" id="gender" name="gender" value="Female"> Female
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" class="radio-container" id="gender" name="gender" value="Other"> Other
+        </div>
+
+        <div class="checkbox">
+            <label>
+              <input type="checkbox"> I caccept the Terms of Use & Privacy Policy.
+              <span class="checkmark"></span>
+            </label>
+        </div>
+
+        <button type="submit" class="btn btn-default name="submit" id="submit">Submit</button>
         &nbsp;&nbsp;&nbsp;
-        <button type="reset" class="btn btn-default " value="All" name="reset" id="reset">Reset</button>
+        <button type="reset" class="btn btn-default value="All" name="reset" id="reset">Reset</button>
         <br><br>
-        <p class="message text-cen-ter">Not registered? <a href="#">Create an account</a></p>
+        <p class="message">Already registered? <a href="#">Login Here</a></p>
       </form>
     </div>
     <div class="col-xs-2 col-sm-3 col-md-4 col-lg-4"></div>
   </div> 
 </div><br><br><br>
 
-
-
 <footer class="container-fluid text-center bg-grey">
   <div class="bg-grey">
   <a href="#" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
- <p>
+  <p>
    &copy; Copyrights 2018 <strong><a href="#" title="Project Suraj"> Project Suraj</a></strong>. All Rights Reserved
 </p>
 </div>
 </footer>
 
+
 </body>
-
-<!-- COMMENT CODES
-/*-
-.c-ontainer{
-  border-style: solid;
-  border-width: 1px;
-  h-eight: 100px;
-}
-.form {
-  border-style: solid;
-  border-width: 1px;
-  margin: 0% 50% 0% 50%;
-  max-width: 300px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
-
-.btn{
-  width: 100%;
-  background-colo-r: #f93939;
-  outline: 0;
-  background: #4CAF50;
-  width: 100%;
-}
-.shadow{
-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-.btn{
-  width: 100%;
-  background-colo-r: #f93939;
-  outline: 0;
-  background: #4CAF50;
-  width: 100%;
-
-  padding: 10px 20px;
-  background-color: #333;
-  color: #f1f1f1;
-  border-radius: 0;
-  transition: .2s;
-}
-.btn{
-  p/adding: 10px 20px;
-  background-color: #333; //#f93939;
-  color: #f1f1f1;
-  b/order-radius: 0;
-  transition: .2s;
-  w/idth: 100%;
-  o/utline: 0;
-  b/ackground: #4CAF50;
-  
-}
-
-<div class="jumbotron"> 
-  <div class="container ">
-      <div class="row ">
-      
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 visible-md-inline visible-lg-inline gallery  ">
-          <a href="#"><img src="ps_logo.png"  style="width:200px; height:200px; margin-left:80%;"></a>
-      </div>
-
-      <div class="col-lg-8 col-md-8 col-sm-8  col-sm-8" style="padding-left:10%;">
-        <h5>|| জয় মা কালী ||</h5>
-      <h1>Project Suraj</h1> 
-      <p>Explore All My Projects </p> 
-      </div>
-
-    </div>    
-  </div>
-</div>
-
-*/
-
--->
 </html>
